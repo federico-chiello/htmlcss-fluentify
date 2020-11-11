@@ -147,13 +147,19 @@ main {
 /* / section one */
 
 /* Inzio section two */
-.corso{
-  height: 50%;
+section .container{
+  width: 80%;
+  height: 30%;
   background-color: violet;
+  margin: 50px auto;
+  text-align: center;
 }
 
-.piano-formativo, .tutor, .progressi {
+.tutor {
+  height: 100%;
+  width: 30%;
   text-align: center;
+  margin: 0 calc(100% / 60);
 }
 
  img {
