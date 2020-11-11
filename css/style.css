@@ -14,6 +14,11 @@ body {
 
 /* Classi riutilizzabili */
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .clearfix::after {
   content: '';
   display: table;
@@ -47,11 +52,6 @@ header {
   background-position: 110% 110%;
 }
 
-.container {
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-}
 
 /* Inizio nav */
 .header-nav {
@@ -116,3 +116,32 @@ header {
 }
 /* / jumbotron */
 /* / intestazione */
+
+/* Inizio main */
+main {
+  height: 700px;
+  background-color: red;
+}
+
+/* Inizio section one */
+.sottotitolo {
+  height: 20%;
+  background-color: lightgrey;
+  position: relative;
+}
+
+.testo {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sottotitolo h2,p {
+  text-align: center;
+}
+
+.sottotitolo h2 {
+  margin-bottom: 10px;
+}
+/* / section one */
