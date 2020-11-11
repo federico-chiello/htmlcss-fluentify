@@ -50,7 +50,6 @@ header {
 .container {
   width: 80%;
   height: 100%;
-  /* background-color: white; */
   margin: 0 auto;
 }
 
@@ -58,12 +57,10 @@ header {
 .header-nav {
   height: 90px;
   line-height: 90px;
-  /* background-color: green; */
 }
 
 .header-logo {
   height: 100%;
-  /* width: 20%; */
   margin-right: 40px;
   margin-top: 10px;
 }
@@ -76,13 +73,11 @@ header {
 .header-nav-left {
   height: 100%;
   width: 50%;
-  /* background-color: violet; */
 }
 
 .header-nav-right {
   height: 100%;
   width: 30%;
-  /* background-color: pink; */
 }
 
 #login {
@@ -91,9 +86,33 @@ header {
   padding: 2px 10px;
 }
 
+
 .btn-green {
   background-color: rgb(27, 213, 11);
-  border-radius: 5px;  
+  border-radius: 5px;
+  padding: 15px;
 }
 /* / nav */
+
+/* Inizio Jumbotron */
+.jumbotron {
+  height: 470px;
+  position: relative;
+
+}
+
+.jumbotron-titolo {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.jumbotron-titolo h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+/* / jumbotron */
 /* / intestazione */
