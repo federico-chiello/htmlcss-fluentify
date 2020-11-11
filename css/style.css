@@ -51,7 +51,8 @@ header {
 .header-logo {
   height: 100%;
   width: 20%;
-  background-color: yellow;
+  background-image: url('../img/logo.svg');
+  background-repeat: no-repeat;
 }
 
 .header-nav-left {
