@@ -13,12 +13,22 @@ body {
 .container {
   width: 80%;
   height: 100%;
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
 }
 
+/* Inizio intestazione */
 header {
   height: 550px;
-  background-color: blue;
-
+  background-color: rgb(21, 18, 89);
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
+
+.header-nav {
+  height: 90px;
+  background-color: green;
+}
+/* / intestazione */
