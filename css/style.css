@@ -7,7 +7,7 @@
 body {
   width: 100%;
   background-color: lightgrey;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -22,6 +22,18 @@ body {
 
 .float-left {
   float: left;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* / classi riutilizzabili */
@@ -39,29 +51,33 @@ header {
 .container {
   width: 80%;
   height: 100%;
-  background-color: white;
+  /* background-color: white; */
   margin: 0 auto;
 }
 
+/* Inizio nav */
 .header-nav {
   height: 90px;
-  background-color: green;
+  line-height: 90px;
+  /* background-color: green; */
 }
 
 .header-logo {
   height: 100%;
   width: 20%;
+  margin-top: 10px;
 }
 
 .header-nav-left {
   height: 100%;
-  width: 50%;
-  background-color: violet;
+  width: 60%;
+  /* background-color: violet; */
 }
 
 .header-nav-right {
   height: 100%;
-  width: 30%;
+  width: 20%;
   background-color: pink;
 }
+/* / nav */
 /* / intestazione */
