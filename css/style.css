@@ -10,12 +10,21 @@ body {
 
 }
 
-.container {
-  width: 80%;
-  height: 100%;
-  background-color: white;
-  margin: 0 auto;
+
+
+/* Classi riutilizzabili */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
+
+.float-left {
+  float: left;
+}
+
+/* / classi riutilizzabili */
 
 /* Inizio intestazione */
 header {
@@ -27,8 +36,33 @@ header {
   background-position: 110% 110%;
 }
 
+.container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
 .header-nav {
   height: 90px;
   background-color: green;
+}
+
+.header-logo {
+  height: 100%;
+  width: 20%;
+  background-color: yellow;
+}
+
+.header-nav-left {
+  height: 100%;
+  width: 50%;
+  background-color: violet;
+}
+
+.header-nav-right {
+  height: 100%;
+  width: 30%;
+  background-color: pink;
 }
 /* / intestazione */
