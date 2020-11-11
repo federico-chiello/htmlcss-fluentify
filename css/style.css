@@ -119,7 +119,7 @@ header {
 
 /* Inizio main */
 main {
-  height: 700px;
+  height: 1000px;
   background-color: red;
 }
 
@@ -147,3 +147,16 @@ main {
 /* / section one */
 
 /* Inzio section two */
+.corso{
+  height: 50%;
+  background-color: violet;
+}
+
+.piano-formativo, .tutor, .progressi {
+  text-align: center;
+}
+
+ img {
+  max-height: 100px;
+  max-width: 100px;
+}
